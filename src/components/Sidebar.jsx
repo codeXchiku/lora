@@ -34,14 +34,14 @@ const Sidebar = () => {
 
                 <div className=' text-xl mt-20 ml-4'>
                     {/* Add your sidebar content here */}
-                    <div className='flex border-2'>
-                        <img src={"/images/boy.jpg"} alt="profile" className='h-12 border-2 rounded-full' />
+                    <div className='flex '>
+                        <img src={"/images/boy.jpg"} alt="profile" className='h-12  rounded-full' />
                         <div className='ml-4'>
                             <p className='text-lg'>Welcome,</p>
                             <p className='text-sm font-bold'>Chiku</p>
                         </div>
                     </div>
-                    <div className='flex border-2 mt-5 mb-5 justify-between'>
+                    <div className='flex  mt-5 mb-5 justify-between'>
                         <div className='mr-5'>
                             <p className='text-lg'>Sales</p>
                             <p className='text-sm'>456</p>
@@ -56,7 +56,7 @@ const Sidebar = () => {
                         </div>
                     </div>
 
-                    <div className='border-2 mt-3'>
+                    <div className=' mt-3'>
                         <div className='flex cursor-pointer items-center' onClick={toggleContent}>
                             <SlHome className='text-purple-400  text-2xl mr-4 ' />
                             <Link to={'/'}><p>Dashboard</p></Link>

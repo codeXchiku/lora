@@ -19,8 +19,8 @@ const Navbar = () => {
         {/* search and nav elements */}
         <div className='flex items-center justify-between ml-32 flex-grow'>
           <div className='flex items-center border-2 border-gray-400 p-2'>
-            <input type="text" placeholder='Search here..' />
-            <IoIosSearch className='text-gray-400' />
+            <input type="text" placeholder='Search here.. ' className='bg-gray-200' />
+            <IoIosSearch className='text-gray-400 ' />
           </div>
           <div className='flex ml-10 mr-4 space-x-8'>
             <FaRegFolderOpen className='text-2xl text-gray-500' />
